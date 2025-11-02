@@ -58,7 +58,7 @@ RPG_Simulador/
 │
 ├── utils/                       # Lógica del juego y persistencia
 │   ├── juego.py
-│   └── __init__.py
+│   
 │
 ├── personajes.json              # Archivo de guardado automático
 ├── main.py                      # Archivo principal que inicia la app

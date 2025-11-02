@@ -31,28 +31,29 @@ El usuario puede crear personajes, visualizar sus estadísticas y simular batall
 4. Ejecuta la aplicación:
    python main.py
 
-Estructura del Proyecto:
+## 🗂️ Estructura del Proyecto
+
 RPG_Simulador/
 │
-├── gui/                     # Interfaz gráfica (CustomTkinter)
-│   ├── crear_personaje_frame.py
-│   ├── listar_personajes_frame.py
-│   └── batalla_frame.py
+├── gui/ # Interfaz gráfica (CustomTkinter)
+│ ├── crear_personaje_frame.py
+│ ├── listar_personajes_frame.py
+│ └── batalla_frame.py
 │
-├── models/                  # Clases base y subclases de personajes
-│   ├── personaje.py
-│   ├── guerrero.py
-│   ├── mago.py
-│   ├── arquero.py
-│   ├── demonio.py
-│   └── angel.py
+├── models/ # Clases base y subclases de personajes
+│ ├── personaje.py
+│ ├── guerrero.py
+│ ├── mago.py
+│ ├── arquero.py
+│ ├── demonio.py
+│ └── angel.py
 │
-├── utils/                   # Lógica del juego y persistencia
-│   ├── juego.py
-│   └── __init__.py
+├── utils/ # Lógica del juego y persistencia
+│ ├── juego.py
+│ └── init.py
 │
-├── personajes.json           # Archivo de guardado automático
-├── main.py                   # Archivo principal que inicia la app
+├── personajes.json # Archivo de guardado automático
+├── main.py # Archivo principal que inicia la app
 └── README.md
 
 💡 Librerías Utilizadas

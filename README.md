@@ -10,12 +10,12 @@ El usuario puede crear personajes, visualizar sus estadísticas y simular batall
 ---
 
 ## ⚙️ Características Principales
-- Creación de personajes con distintos tipos y atributos.
-- Visualización de todos los personajes registrados.
-- Simulación de combates automáticos por turnos.
-- Interfaz gráfica moderna y responsiva con `customtkinter`.
-- Persistencia de datos con archivo `JSON` para guardar y cargar personajes automáticamente.
-- Uso de polimorfismo para ataques y habilidades especiales.
+- Creación de personajes con distintos tipos y atributos.  
+- Visualización de todos los personajes registrados.  
+- Simulación de combates automáticos por turnos.  
+- Interfaz gráfica moderna y responsiva con `customtkinter`.  
+- Persistencia de datos con archivo `JSON` para guardar y cargar personajes automáticamente.  
+- Uso de polimorfismo para ataques y habilidades especiales.  
 
 ---
 
@@ -23,44 +23,52 @@ El usuario puede crear personajes, visualizar sus estadísticas y simular batall
 1. Clona este repositorio:
    ```bash
    git clone https://github.com/felipesantiago09/RPG_Simulador.git
+   ```
 2. Accede al directorio del proyecto:
-    cd RPG_Simulador
-
+   ```bash
+   cd RPG_Simulador
+   ```
 3. Instala la librería necesaria:
+   ```bash
    pip install customtkinter
+   ```
 4. Ejecuta la aplicación:
+   ```bash
    python main.py
+   ```
+
+---
 
 ## 🗂️ Estructura del Proyecto
-
+```
 RPG_Simulador/
 │
-├── gui/ # Interfaz gráfica (CustomTkinter)
-│ ├── crear_personaje_frame.py
-│ ├── listar_personajes_frame.py
-│ └── batalla_frame.py
+├── gui/                         # Interfaz gráfica (CustomTkinter)
+│   ├── crear_personaje_frame.py
+│   ├── listar_personajes_frame.py
+│   └── batalla_frame.py
 │
-├── models/ # Clases base y subclases de personajes
-│ ├── personaje.py
-│ ├── guerrero.py
-│ ├── mago.py
-│ ├── arquero.py
-│ ├── demonio.py
-│ └── angel.py
+├── models/                      # Clases base y subclases de personajes
+│   ├── personaje.py
+│   ├── guerrero.py
+│   ├── mago.py
+│   ├── arquero.py
+│   ├── demonio.py
+│   └── angel.py
 │
-├── utils/ # Lógica del juego y persistencia
-│ ├── juego.py
-│ └── init.py
+├── utils/                       # Lógica del juego y persistencia
+│   ├── juego.py
+│   └── __init__.py
 │
-├── personajes.json # Archivo de guardado automático
-├── main.py # Archivo principal que inicia la app
+├── personajes.json              # Archivo de guardado automático
+├── main.py                      # Archivo principal que inicia la app
 └── README.md
+```
 
-💡 Librerías Utilizadas
+---
 
--CustomTkinter → Para la interfaz gráfica moderna.
-
--json (nativa de Python) → Para guardar y cargar personajes creados.
-
+##  Librerías Utilizadas
+- **CustomTkinter** → Para la interfaz gráfica moderna.  
+- **json (nativa de Python)** → Para guardar y cargar personajes creados.  
 
 

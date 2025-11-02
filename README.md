@@ -55,7 +55,7 @@ RPG_Simulador/
 │   ├── arquero.py
 │   ├── demonio.py
 │   └── angel.py
-│
+│   └── batalla.py
 ├── utils/                       # Lógica del juego y persistencia
 │   ├── juego.py
 │   

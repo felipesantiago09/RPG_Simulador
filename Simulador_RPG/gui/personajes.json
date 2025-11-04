@@ -1,0 +1,34 @@
+[
+    {
+        "nombre": "Zed",
+        "tipo": "Demonio",
+        "vida": 130,
+        "fuerza": 18,
+        "defensa": 12,
+        "poder_especial": "Absorción de vida"
+    },
+    {
+        "nombre": "SDDAS",
+        "tipo": "Guerrero",
+        "vida": 120,
+        "fuerza": 25,
+        "defensa": 10,
+        "poder_especial": "Golpe poderoso"
+    },
+    {
+        "nombre": "nose",
+        "tipo": "Guerrero",
+        "vida": 120,
+        "fuerza": 25,
+        "defensa": 10,
+        "poder_especial": "Golpe poderoso"
+    },
+    {
+        "nombre": "nose2",
+        "tipo": "Demonio",
+        "vida": 130,
+        "fuerza": 18,
+        "defensa": 12,
+        "poder_especial": "Absorción de vida"
+    }
+]
